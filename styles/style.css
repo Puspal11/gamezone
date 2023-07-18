@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;700&display=swap');
+
+.nav-container {
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.navigation {
+    background-color: #FFF;
+    display: flex;
+}
+
+.logo-container {
+    display: flex;
+    padding-left: 40px;
+    gap: 20px;
+}
+
+.logo-container img {
+    width: 70px;
+    height: 40px;
+    flex-shrink: 0;
+    padding-top: 30px;
+}
+
+.logo-container p {
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.logo-container p span {
+    color: #FF42A5;
+}
+
+.nav-items-container a {
+    text-decoration: none;
+    width: 50%;
+    justify-content: space-evenly;
+    padding-right: 60px;
+}
+
+.icon-head {
+    width: 33.916px;
+    height: 24px;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.icon-follow {
+    justify-content: space-evenly;
+    color: #3C354F;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background-color: #2e2727;
+    width: 262px;
+    height: 56px;
+    flex-shrink: 0;
+    padding-left: 20px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    /* border: 1px solid palegreen; */
+}
+
+/* end of navigation bar and icon */
+
+.banner-container {
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+
+
+}
+
+.banner-text {
+    width: 50%;
+    height: 701px;
+    /* border: 1px solid saddlebrown; */
+    background-image: url(../images/Group\ 14.png);
+
+}
+
+.banner-image {
+    width: 50%;
+
+}
+
+.banner-text p {
+    color: #0B0223;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.banner-text h1 {
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.banner-text div li {
+    color: #534C64;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase;
+    text-decoration: none;
+}
+
+.button-1 {
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    color: #FFF;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+
+}
+
+.button-2 {
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    color: #FFF;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.button-both{
+padding-top: 100px;
+padding-left: 200px;
+}
