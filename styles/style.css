@@ -31,7 +31,9 @@
     flex-shrink: 0;
     padding-top: 30px;
 }
-
+.icon-follow i{
+    border-width: 60px;
+}
 .logo-container p {
     text-align: center;
     font-family: 'Work Sans', sans-serif;
@@ -309,7 +311,12 @@ border: none;
     height: 400px;
     flex-shrink: 0;
 }
+.img-1{
 
+}
+.img-1:hover{
+
+}
 /* end of video section */
 
 .banner3 {
