@@ -439,15 +439,26 @@
 /* end of banner 4 */
 .icon-button {
     display: flex;
-    border: 5px solid salmon;
-    border-color: transparent;
+    justify-content: center;
+    /* display: grid repeat(5, 1fr); */
+    /* border: 2px solid salmon; */
+    /* border-color: transparent; */
     width: 100%;
     /* width: 1920px; */
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-evenly;
     height: 427px;
     flex-shrink: 0;
 }
+.icon-button:hover{
+    text-shadow: #F948B2;
+}
 
 .action {
+    /* border: 5px solid salmon; */
+    /* border-color: transparent; */
+
     display: flex;
     width: 243px;
     height: 80px;
@@ -459,6 +470,65 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+}
+.word:hover{
+    border: 5px solid #F948B2;
+    transform: scale(.5)
+    height: 80px;
+    flex-shrink: 0;
+}
+.action:hover{
+    border: 5px solid #F948B2;
+    transform: scale(.5)
+    height: 80px;
+    flex-shrink: 0;
+}
+.adventure:hover{
+    border: 5px solid #F948B2;
+    transform: scale(.5)
+    height: 80px;
+    flex-shrink: 0;
+}
+.arcade:hover{
+    border: 5px solid #F948B2;
+    transform: scale(.5)
+    
+    flex-shrink: 0;
+}
+.educational:hover{
+    border: 5px solid #F948B2;
+    transform: scale(.5)
+    
+    height: 80px;
+    flex-shrink: 0;
+}
+.role:hover{
+    border: 5px solid #F948B2;
+    transform: scale(.5)
+    
+    height: 80px;
+    flex-shrink: 0;
+}
+.music:hover{
+    border: 5px solid #F948B2;
+    transform: scale(.5)
+    
+    height: 80px;
+    flex-shrink: 0;
+}
+.puzzle:hover{
+    border: 5px solid #F948B2;
+    transform: scale(.5)
+    
+    height: 80px;
+    flex-shrink: 0;
+}
+.strategy:hover{
+    border: 5px solid #F948B2;
+    transform: scale(.5)
+    
+    height: 80px;
+    flex-shrink: 0;
 }
 
 .adventure {
@@ -475,7 +545,13 @@
     font-weight: 600;
     line-height: normal;
 }
-
+.adventure:hover{
+    border: 5px solid #F948B2;
+    transform: scale(.5)
+    
+    height: 80px;
+    flex-shrink: 0;
+}
 .arcade {
     display: flex;
     width: 248px;
@@ -553,7 +629,7 @@
 
 .strategy {
     display: flex;
-    width: 262px;
+    width: 299px;
     height: 80px;
     flex-shrink: 0;
     border-radius: 50px;
