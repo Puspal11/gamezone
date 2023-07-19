@@ -1,6 +1,6 @@
 @media screen and (max-width: 425px) {
     * {
-        width: 1112px;
+        width: 1110px;
         height: auto;
         background-size: 50px;
         height: auto;
@@ -71,6 +71,8 @@
     .banner3-text{
         flex-direction: column;
         margin-right: 500px;
+        /* justify-content: center; */
+        text-align: center;
     }
     /* banner4 start */
     .banner4{
@@ -78,7 +80,128 @@
     }
     .banner4-text{
         flex-direction: column;
+        justify-content: space-around;
+    }
+    .icon-button{
+        flex-direction: column 1fr;
+    }
+    .footer{
+        flex-direction: column;
+    }
+
+    .footer-icon{
+        flex-direction: column;
+    }
+    .footer-tag{
+        flex-direction: column;
+        margin-bottom: ;
     }
 }
 
-@media screen and (min-width: 425) and (max-width: 768) {}
+@media screen and (min-width: 425) and (max-width: 768) {
+    
+    * {
+        width: 100%;
+        height: auto;
+        background-size: 50px;
+        height: auto;
+    }
+
+    .navigation {
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .nav-container {
+        flex-direction: row;
+        width: 50%;
+        margin-left: 400px;
+
+    }
+
+    .banner-container {
+        flex-direction: row;
+        width: 1400px;
+    }
+
+    .banner-text {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .banner1-text {
+        /* align-items: center; */
+        justify-content: center;
+        margin-left: 500px;
+    }
+
+    .button-both {
+        width: 30px;
+        height: 20px;
+    }
+
+    .banner-image {
+        margin-bottom: 70px;
+    }
+
+    .logo-container {
+        /* flex-direction: column; */
+        width: 70px;
+    }
+
+    .banner1-text {
+        width: 80px;
+    }
+
+    /* banner 1 end */
+    .banner-2 {
+        flex-direction: column;
+    }
+
+    .banner-2-text {
+        flex-direction: column;
+    }
+
+    /* banner2 end */
+    .video-list {
+        flex-direction: column;
+        width: auto;
+        justify-content: center;
+        margin-left: 400px;
+    }
+/* banner 3 start */
+    .banner3{
+        flex-direction: column;
+        width: auto;
+    }
+    .banner3-text{
+        flex-direction: column;
+        margin-right: 500px;
+        /* justify-content: center; */
+        text-align: center;
+    }
+    /* banner4 start */
+    .banner4{
+        flex-direction: column;
+    }
+    .banner4-text{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .icon-button{
+        flex-direction: column 1fr;
+    }
+    .footer{
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .footer-icon{
+        flex-direction: column;
+    }
+    .footer-tag{
+        flex-direction: column;
+        margin-bottom: ;
+    }
+}

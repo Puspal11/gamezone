@@ -689,7 +689,7 @@ background: #0B0223;
 .logo-footer{
     margin-top: 26px;
     width: 86.041px;
-    height: 20px;
+    height: auto;
     flex-shrink: 0;
 }
 .footer-tag{
@@ -776,29 +776,3 @@ line-height: normal;
 
 }
 /* responsiveness operation here */
-@media screen and (max-width: 425px) {
-    * {
-        /* width: 1112px; */
-        height: auto;
-        grid-template-columns: 1fr;
-
-    }
-
-    .navigation {
-        flex-direction: column;
-    }
-
-    .banner-container {
-        flex-direction: column;
-    }
-
-    logo-container {
-        flex-direction: column;
-    }
-
-    .video-list-div {
-        flex-direction: column;
-    }
-}
-
-@media screen and (min-width: 425) and (max-width: 768) {}
