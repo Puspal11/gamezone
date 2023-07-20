@@ -72,7 +72,6 @@
     text-align: center;
     font-family: 'Work Sans', sans-serif;
     font-size: 18px;
-    font-style: normal;
     font-weight: 500;
     line-height: normal;
     background-color: #2e2727;
@@ -82,7 +81,6 @@
     padding-left: 20px;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
-    /* border: 1px solid palegreen; */
 }
 
 /* end of navigation bar and icon */
@@ -94,6 +92,7 @@
     /* justify-content: center; */
     /* align-items: center; */
     margin-bottom: 40px;
+    /* border: 1px solid red; */
 
 }
 
@@ -107,7 +106,10 @@
 .banner-image {
     width: 50%;
 }
-
+.banner-image-1{
+    width: 100%;
+    height: auto;
+}
 .banner-image image {
     width: 100%;
     height: auto;
@@ -399,9 +401,9 @@
 }
 
 .banner3-image {
-    /* position: relative; */
+    position: relative;
     width: 50%;
-    /* height: auto; */
+    height: auto;
     /* width: 634.833px; */
     /* height: 650px; */
     flex-shrink: 0;
@@ -423,11 +425,12 @@
 .banner3-image> .toy-girl {
     position: absolute;
     /* bottom: -100%; */
-    left: -100%;
+    left: -10%;
+    bottom: -5%;
     /* width: 20%; */
-    border: 1px solid red;
-    width: 318.5px;
-    height: 365.083px;
+    /* border: 1px solid red; */
+    width: 200.5px;
+    height: 250.083px;
     flex-shrink: 0;
 
 
@@ -436,7 +439,7 @@
 /* end of banner 3 */
 .banner4 {
     width: 100%;
-    margin-top: 60px;
+    margin-top: 80px;
     margin-bottom: 40px;
     display: flex;
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
@@ -721,23 +724,24 @@
 /* end of icon section with hover */
 .footer {
     width: 100%;
-    height: 636px;
+    height: auto;
     flex-shrink: 0;
     background: #0B0223;
 }
 
 .footer-logo {
     display: flex;
-    padding-top: 40px;
+    /* padding-top: 40px; */
     justify-content: center;
     text-align: center;
 }
 
 .logo-footer {
     margin-top: 26px;
-    width: 86.041px;
+    width: 70px;
     height: auto;
     flex-shrink: 0;
+    padding-right: 30px;
 }
 
 .footer-tag {
@@ -774,8 +778,6 @@
     line-height: normal;
 }
 
-.footer-tag {}
-
 .footer-span {
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
     background-clip: text;
@@ -801,14 +803,12 @@
 .footer-tag-2 {
     display: flex;
     margin-top: 70px;
-    margin-left: 340px;
     color: rgba(255, 255, 255, 0.60);
     text-align: center;
+    justify-content: center;
     font-family: 'Work Sans', sans-serif;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
 }
 
 .footer-tag-3 {
@@ -818,16 +818,14 @@
 }
 
 .copyright {
-    margin-top: 80px;
-    margin-left: 70px;
+    /* margin-top: 80px; */
+    /* margin-left: 70px; */
     /* justify-content: end; */
     color: rgba(255, 255, 255, 0.60);
     text-align: center;
     font-family: 'Work Sans', sans-serif;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
 
 }
 
