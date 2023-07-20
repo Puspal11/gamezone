@@ -23,16 +23,18 @@
 
 .logo-container {
     display: flex;
+    text-align: center;
     padding-left: 40px;
     /* margin-right: 100px; */
     gap: 20px;
 }
 
 .logo-container img {
-    width: 70px;
-    height: 40px;
+    width: 50px;
+    height: 25px;
     flex-shrink: 0;
     padding-top: 30px;
+    padding-top: 45px;
 }
 
 .icon-follow i {
@@ -100,16 +102,22 @@
     width: 50%;
     height: auto;
     /* border: 1px solid saddlebrown; */
-    background-image: url(../images/Group-14.png) ;
+    background-image: url(../images/Group-14.png);
+    background-repeat: no-repeat;
+    /* padding-right: 70px; */
+    background-size: 100%;
+    background-position-y: -40px;
 }
 
 .banner-image {
     width: 50%;
 }
-.banner-image-1{
+
+.banner-image-1 {
     width: 100%;
     height: auto;
 }
+
 .banner-image image {
     width: 100%;
     height: auto;
@@ -302,6 +310,24 @@
     height: 100%;
 }
 
+.video-caption {
+    /* width: 342px; */
+    color: #534C64;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    display: flex;
+    text-align: left;
+    justify-content: space-evenly;
+    gap: 15px;
+    margin-left: 25px;
+
+    /* 150% */
+}
+.video-caption p{
+    width: 220px;
+}
 .video-image {
     position: relative;
     width: 300px;
@@ -422,7 +448,7 @@
     left: 0;
 }
 
-.banner3-image> .toy-girl {
+.banner3-image>.toy-girl {
     position: absolute;
     /* bottom: -100%; */
     left: -10%;
@@ -489,22 +515,21 @@
 
 .banner4-button {
     font-family: 'Work Sans', sans-serif;
-    color: #FF42A5;
+    /* color: #FF42A5; */
     font-size: 20px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
-    text-transform: uppercase;
-    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    /* background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%)); */
     background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    /* -webkit-text-fill-color: transparent; */
     display: inline-flex;
     padding: 21px 40px;
     align-items: flex-start;
     gap: 10px;
     border-radius: 48px;
     background: #FFF;
+    border: none;
+    color: #FF42A5;
 
 
 }
